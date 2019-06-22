@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+        <h1>Item Details</h1>
+
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">You added {{ item.description }}</span>
+          </div>
+          <div class="card-action">
+          </div>
+        </div>
+        
+        <a href="{% url 'home' %}" class="btn">Back to Wish List</a>
+
+ {% endblock %}
